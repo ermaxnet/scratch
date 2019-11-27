@@ -1,0 +1,10 @@
+{
+  "name": "@mais/scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maksim Yaromin",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}

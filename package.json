@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@angular/cli": "^8.3.19",
+    "lerna": "^3.19.0"
+  },
+  "name": "scratch",
+  "scripts": {
+    "start": "lerna run start",
+    "start:scratch": "lerna run --scope @mais/scratch start",
+    "start:scratch-api": "lerna run --scope @mais/scratch-api start"
+  }
+}
